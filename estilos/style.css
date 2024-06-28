@@ -12,6 +12,7 @@ body, html {
     width: 100vw;
     height: 100vh;
     background-color: black;
+    overflow: hidden;
 }
 
 #logo {
@@ -26,6 +27,7 @@ main {
     max-width: 95%;
     text-align: justify;
     margin: auto;
+    position: relative;
 }
 
 #login > h1 {
@@ -132,11 +134,13 @@ form > span > a {
 
 footer {
     border-top: 1px solid gray;
+    height: 25%;
     width: 100%;
     left: 0;
     bottom: 0;
-    position: fixed;
+    position: absolute;
     padding-left: 3%;
+    background-color: black;
 }
 
 
