@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 600px) and (max-width: 960px) {
+    body {
+        background: black url(../imagens/fundo.jpg) center center no-repeat ;
+        background-size: cover;
+    }
+    
+    main {
+        width: 450px;
+        padding: 60px;
+        margin: auto;
+        margin-bottom: 30px;
+        background-color: rgba(0, 0, 0, 0.78);
+        border-radius: 5px;
+    }
+
+    section > h1 {
+        font-size: 2em;
+    }
+
+    #login > form > input:nth-child(2) {
+        margin: 20px 0px;
+    }
+
+    #login > form > p:not(.assinar) {
+        margin: 20px 0px;
+    }
+
+    #senha {
+        margin: 20px 0px
+    }
+
+    .assinar {
+        font-size: 1em;
+        margin: 30px 0px;
+    }
+
+    section > form > span {
+        font-size: .8em;
+    }
+
+    footer {
+        border: 0;
+        background: linear-gradient(0deg, rgba(0,0,0,1) 80%, rgba(0,0,0,0.7189250700280112) 100%);
+    }
+
+}
+
+@media screen and (min-width: 960px) {
+    body {
+        background: black url(../imagens/fundo.jpg) center center no-repeat ;
+        background-size: cover;
+    }
+
+    #logo > img {
+        height: 50px;
+    }
+    
+    main {
+        width: 450px;
+        padding: 60px;
+        margin: auto;
+        margin-bottom: 30px;
+        background-color: rgba(0, 0, 0, 0.78);
+        border-radius: 5px;
+    }
+
+    section > h1 {
+        font-size: 2em;
+    }
+
+    #login > form > input:nth-child(2) {
+        margin: 20px 0px;
+    }
+
+    #login > form > p:not(.assinar) {
+        margin: 20px 0px;
+    }
+
+    #senha {
+        margin: 20px 0px
+    }
+
+    .assinar {
+        font-size: 1em;
+        margin: 30px 0px;
+    }
+
+    section > form > span {
+        font-size: .8em;
+    }
+
+    footer {
+        border: 0;
+        background: linear-gradient(0deg, rgba(0,0,0,1) 80%, rgba(0,0,0,0.7189250700280112) 100%);
+    }
+
+    footer > ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
