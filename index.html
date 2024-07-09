@@ -19,7 +19,7 @@
             <form action="#" method="post">
                 <input type="email" name="email" id="iemail" placeholder="E-mail ou número de celular" minlength="8" required autocomplete="on" class="caixas">
                 <input type="password" name="senha" id="isenha" placeholder="Senha" minlength="8" maxlength="20" required autocomplete="current-password" class="caixas">
-                <input type="button" value="Entrar" class="caixas">
+                <input type="button" value="Entrar" class="caixas" onclick="myFunction()">
                 <p>ou</p>
                 <input type="button" value="Usar um código de acesso" class="caixas">
                 <a href="#" id="senha">Esqueceu a senha?</a>
@@ -41,5 +41,11 @@
             <li><a href="#">Informações corporativas</a></li>
         </ul>
     </footer>
+
+    <script>
+        function myFunction() {
+            window.location.href="tela-principal/index.html"
+        }
+    </script>
 </body>
 </html>

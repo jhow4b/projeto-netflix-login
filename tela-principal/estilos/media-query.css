@@ -1,0 +1,154 @@
+@charset "UTF-8";
+/* 600 - 960 */
+
+@media screen and (min-width: 600px) and (max-width: 960px) {
+    
+    header {
+        display: none;
+        top: 50%;
+        background-color: rgba(0, 0, 0, 0);
+        z-index: 1;
+    }
+    
+    
+    .icone {
+        display: none;
+    }
+
+    #destaque {
+        position: relative;
+        height: 600px;
+        width: 100%;
+    }
+
+    #assistir {
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 3%;
+    }
+
+    #assistir > a > img {
+        height: 50px;
+    }
+
+    #assistir > p {
+        font-size: 2.5em;
+        margin-bottom: 10px;
+    }
+
+    #assistir > input {
+        background-color: white;
+        border: 0;
+        width: 50%;
+        height: 40px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 1.1em;
+    }
+
+    #assistir > input:hover {
+        background-color: rgba(0, 0, 0, 0.622);
+        color: white;
+        font-weight: bold;
+        border: 2px solid white;
+    }
+
+    #degrade {
+        position: absolute;
+        background-image: linear-gradient(to top, rgb(12, 12, 12) 30%, rgba(12, 12, 12, 0));
+        height: 50px;
+        bottom: 0;
+        width: 100%;
+    }
+
+    #destaque > h2 {
+        display: none;
+    }
+
+    #destaque > img {
+        height: 600px;
+        opacity: 0.4;
+        z-index: 0;
+        border: 0;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    
+    header {
+        display: none;
+        top: 50%;
+        background-color: rgba(0, 0, 0, 0);
+        z-index: 1;
+    }
+    
+    
+    .icone {
+        display: none;
+    }
+
+
+    #assistir {
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 3%;
+    }
+
+    #assistir > a > img {
+        height: 50px;
+    }
+
+    #assistir > p {
+        font-size: 2.5em;
+        margin-bottom: 10px;
+    }
+
+    #assistir > input {
+        background-color: white;
+        border: 0;
+        width: 50%;
+        height: 40px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 1.1em;
+    }
+
+    #assistir > input:hover {
+        background-color: rgba(0, 0, 0, 0.622);
+        color: white;
+        font-weight: bold;
+        border: 2px solid white;
+    }
+
+    #degrade {
+        position: absolute;
+        background-image: linear-gradient(to top, rgb(12, 12, 12) 40%, rgba(12, 12, 12, 0));
+        height: 50px;
+        bottom: 0;
+        width: 100%;
+    }
+
+    #destaque {
+        position: relative;
+        height: 900px;
+        width: 100%;
+    }
+
+    #destaque > h2 {
+        display: none;
+    }
+
+    #destaque > img {
+        height: 100%;
+        opacity: 0.4;
+        z-index: 0;
+        border: 0;
+    }
+
+    .filmes > div > img {
+        height: 200px;
+    }
+
+}
