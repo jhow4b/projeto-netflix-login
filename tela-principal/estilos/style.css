@@ -57,22 +57,33 @@ main {
 
 .itens {
     display: flex;
+    height: 160px;
 }
 
 .filmes > div > img {
     height: 150px;
     margin-right: 10px;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgba(0, 0, 0, 0);
 }
 
 .filmes > div > img:first-child {
     margin-left: 10px;
 }
 
+
+.filmes > div > img:hover {
+    height: 160px;
+    transition: height .3s;
+    opacity: .6;
+    border: 1px solid white;
+}
+
 footer {
     background-color: black;
     text-align: center;
     padding: 20px;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 footer > p {

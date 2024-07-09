@@ -147,8 +147,22 @@
         border: 0;
     }
 
+    .itens {
+        height: 210px;
+    }
+
     .filmes > div > img {
         height: 200px;
+    }
+
+    .filmes > div > img:hover {
+        border: 2px solid white;
+        height: 210px;
+        transition: height .3s;
+    }
+
+    footer {
+        margin-top: 30px;
     }
 
 }
